@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FC Bayern</title>
+    <link rel="icon" type="image/x-icon" href="materials/logo.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #191919;">
+        <div class="container-fluid">
+            <div class="">
+                <a class="navbar-brand fw-bold" href="#">
+                    <img src="materials/logo.png" alt="Bootstrap" width="30" height="30">
+                    FC Bayern
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-bold text-light">
+                <li class="nav-item">
+                    <a class="nav-link"  href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="history.html">History</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="players.html">Players</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Join
+                    </a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="login.html">Login</a></li>
+                    <li><a class="dropdown-item" href="register.html">Register</a></li>
+                    </ul>
+                </li>
+                </ul>
+                <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div id="home" class="container-fluid col-12 d-flex flex-column justify-content-center align-items-center" style="height: 25vh; background: url('materials/soccerbanner.png'); background-repeat: no-repeat; background-size: cover; ">
+        <h1 class="fw-bold text-light text-center mt-4">Our team</h1>
+    </div>
+
+    <div  class="container-fluid px-0 py-4 d-flex flex-column justify-content-center align-items-center">
+        <div id="title" class="col-3 d-flex justify-content-center flex-column align-items-center fadeblock" style="margin-top: 50px; margin-bottom: 50px;">
+            <h2 class="fw-bold text-uppercase text-center">Team</h2>
+            <div style="height: 2px; width: 200px; border: 2px solid red;"></div>
+        </div>
+
+        <div class="col-5 text-center fadeblock">
+            <p><strong> PRO SOCCER FC.inc</strong> Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet sodales, porttitor bibendum facilisi suspendisse, aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis. Commodo enim aliquam suspendisse tortor cum diam, commodo facilisis, rutrum et duis nisl porttitor, vel eleifend odio ultricies ut, orci in adipiscing felis velit nibh.</p>
+        </div>
+
+        <div class="container-fluid d-flex flex-row justify-content-center align-items-center px-0 mb-4">
+            <div class="row col-12 d-flex justify-content-center">
+                <div id="buttonGroup" class="btn-group col-2 fadeblock d-flex flex-column p-0" role="group" aria-label="Basic example">
+                    <button id="1player" type="button" style="line-height: 0.3;" class="btn btn-light active rounded-0 border border-black text-start py-0 m-0">Lewandowski</button>
+                    <button id="2player" type="button" style="line-height: 0.3;" class="btn btn-light rounded-0 border border-black text-start py-0 m-0">Tommas Muller</button>
+                    <button id="3player" type="button" style="line-height: 0.3;" class="btn btn-light rounded-0 border border-black text-start py-0 m-0">Kimmich</button>
+                    <button id="4player" type="button" style="line-height: 0.3;" class="btn btn-light rounded-0 border border-black text-start py-0 m-0">Jules Kounde</button>
+                    <button id="5player" type="button" style="line-height: 0.3;" class="btn btn-light rounded-0 border border-black text-start py-0 m-0">Gavi</button>
+                    <button id="6player" type="button" style="line-height: 0.3;" class="btn btn-light rounded-0 border border-black text-start py-0 m-0">Pedri</button>
+                    <button id="7player" type="button" style="line-height: 0.3;" class="btn btn-light rounded-0 border border-black text-start py-0 m-0">de Jong</button>
+                    <button id="8player" type="button" style="line-height: 0.3;" class="btn btn-light rounded-0 border border-black text-start py-0 m-0">Sergi Roberto</button>
+                    <button id="9player" type="button" style="line-height: 0.3;" class="btn btn-light rounded-0 border border-black text-start py-0 m-0">Nouer</button>
+                    <button id="10player" type="button" style="line-height: 0.3;" class="btn btn-light rounded-0 border border-black text-start py-0 m-0">Raphinha</button>
+                    <button id="11player" type="button" style="line-height: 0.3;" class="btn btn-light rounded-0 border border-black text-start py-0 m-0">Ferran Torres</button>
+                </div>
+                <div id="playerInfo" class="fadeblock col-6 p-o m-0 d-flex row border border-black">
+                    <img class="fadeblock img-fluid col-8 p-0 m-0" src="materials/Lewandowski.png" style="height: 600px;">
+                    <div class="fadeblock col-4 d-flex flex-column text-start px-4 text-wrap">
+                        <p class="fw-bold text-uppercase"><span class="text-danger">NATIONAL:</span> Portugal</p>
+                        <p class="fw-bold text-uppercase"><span class="text-danger">DATE OF BIRTH:</span> 10/02/1988</p>
+                        <p class="fw-bold text-uppercase"><span class="text-danger">height:</span> 183 cm </p>
+                        <p class="fw-bold text-uppercase"><span class="text-danger">weight:</span> 80 kg </p>
+                        <p class="fw-bold text-uppercase"><span class="text-danger">position:</span> Forwarder   </p>
+                        <p class="fw-bold text-uppercase"><span class="text-danger">played:</span> 200</p>
+                        <p class="fw-bold text-uppercase"><span class="text-danger">goal:</span> 20</p>
+                        <p class="fw-bold text-uppercase"><span class="text-danger">red flags:</span> 20</p>
+                        <p class="fw-bold text-uppercase"><span class="text-danger">yellow flags:</span> 20</p>
+                        <p class=""><span class="text-danger text-uppercase fw-bold ">information:</span>Lionel Messi signs a contract with Paris Saint-Germain (PSG) after leaving FC Bayern, marking a significant move in the football world.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="contact" class="fadeblock font-small" style="background-color:#000000; width:100%;">
+        <div class="container py-5">
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <div class="mb-5 flex-center">
+                        <a class="fb-ic text-decoration-none mx-2" href="">
+                        <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x" style="color:white;"> </i>
+                        </a>
+                        <a class="tw-ic text-decoration-none mx-2" href="">
+                        <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x" style="color:white;"> </i>
+                        </a>
+                        <a class="gplus-ic text-decoration-none mx-2" href="">
+                        <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x" style="color:white;"> </i>
+                        </a>
+                        <a class="li-ic text-decoration-none mx-2" href="">
+                        <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x" style="color:white;"> </i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright text-center" style="color:white;">© 2023 :
+                <a href="index.html" style="color:white;">fcbayern.com</a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="players.js" charset="UTF-8"></script>  
+</body>
+</html>

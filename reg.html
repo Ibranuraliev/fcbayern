@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <title>Register</title>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: rgb(23, 23, 23);">
+        <div class="container-fluid justify-content-between">
+            <a class="navbar-brand text-monospace font-weight-bold" href="index.html" style="font-weight: 500;">IStudyIT</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html#homepage">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                        Learn
+                        </a>
+                        <div class="dropdown-menu">
+                        <a class="dropdown-item" href="coursejava.html">Java</a>
+                        <a class="dropdown-item" href="coursec++.html">C++</a>
+                        <a class="dropdown-item" href="coursecsharp.html">C#</a>
+                        <a class="dropdown-item" href="coursepython.html">Python</a>
+                        <a class="dropdown-item" href="coursesql.html">SQL</a>
+                        <a class="dropdown-item" href="coursejs.html">JavaScript</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="index.html#founders">Founders</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="index.html#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="register.html">Sign up</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="px-4 py-5 px-md-5 text-center text-lg-start d-flex align-items-center" style="background: url('resources/background.jpg'); background-repeat: no-repeat; background-attachment: fixed; background-position: center center; background-size: cover; height: 100vh;">
+        <div class="container">
+            <div class="row gx-lg-5 align-items-center">
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <h1 class="my-5 display-3 fw-bold ls-tight text-white">
+                    The best offer <br/>
+                    <span class="text-primary">for your education</span>
+                    </h1>
+                    <p style="color:white">
+                        Study IT is an online platform offering comprehensive educational resources and materials for individuals interested in Information Technology, covering various topics such as programming, cybersecurity, and web development.
+                    </p>
+                </div>
+            <div class="col-lg-6 mb-5 mb-lg-0">
+                <div class="card">
+                <div class="card-body py-5 px-md-5">
+                    <form>
+                    <div class="row">
+                        <div class="col-md-6 mb-4">
+                        <div class="form-outline">
+                            <input type="text" class="form-control" placeholder="Firstname"/>
+                        </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                        <div class="form-outline">
+                            <input type="text" class="form-control" placeholder="Lastname"/>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="form-outline mb-4">
+                        <input type="email" class="form-control" placeholder="Email address"/>
+                    </div>
+    
+                    <div class="form-outline mb-4">
+                        <input type="password" class="form-control" placeholder="Password"/>
+                    </div>
+                    <button type="submit" class="btn btn-outline-primary btn-block mb-4 w-100">Sign up</button>
+                    </div>
+                    </form>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

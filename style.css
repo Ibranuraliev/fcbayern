@@ -1,0 +1,22 @@
+.btn.active {
+    background-color: red !important;
+    color: white !important;
+}
+
+#tableContainer {
+    flex-grow: 1;
+}
+
+#nextTable {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.fadeblock{
+    opacity: 0;
+}
+
+.fadeblock.show{
+    opacity: 1;
+    transition: all 1.5s;
+}
